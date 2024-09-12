@@ -1,27 +1,35 @@
 {
+    "conclusion": "Conclusion",
+    "conclusion-text": "This page was created for the pleasure of those who are dedicated to the breeding of characterful, but also colorful canaries. Its task is not to solve professional matters related to the division or breeding of birds... I believe that, in addition to breeders, it will also interest the general public and thanks to her, the ranks of us who fell for this passion will expand.",
     "nav": {
       "home": "Home",
+      "about": "About",
       "history": "History",
       "present": "Present",
-      "photo_norwich": "Norwich Photos",
+      "photo_norwich": "Norwich",
       "video": "Video",
-      "photo_fifefancy": "Fifefancy Photos",
+      "photo_fifefancy": "Fife fancy",
       "breeding_facilities": "Breeding Facilities",
       "contact": "Contact"
     },
-    "history_title": "History of Canary Breeding",
-    "history_content": "The beginning of canary breeding is dated to the early 16th century and is associated with the Canary Islands...",
-        "present": {
-          "norwich_title": "Norwich Canaries",
-          "norwich_text": "The breeding of Norwich canaries is not as developed as it should be for such a beautiful canary breed. Most breeders are in England, Belgium, and the Netherlands, where high-quality lines are found. It is less common in Italy, Turkey, Germany, and the Iberian Peninsula. In Central Europe, there are only a few breeders whose birds meet the standard. This is due to the difficulty of breeding, poor reproduction, and, last but not least, the cost of quality exhibition birds. Therefore, it is our task, those who have committed to breeding this breed, to raise them with love so that they bring joy to us and the surrounding community.",
-          "section2_title": "Section 2 Title",
-          "section2_text": "Text for section 2.",
-          "section3_title": "Section 3 Title",
-          "section3_text": "Text for section 3.",
-          "section4_title": "Section 4 Title",
-          "section4_text": "Text for section 4.",
-          "gallery_title": "Gallery"
-        }
+    "present": {
+        "norwich_title": "Norwich Canaries",
+        "norwich_text": "The breeding of Norwich canaries is not as developed as it should be for such a beautiful canary breed. Most breeders are in England, Belgium, and the Netherlands, where high-quality lines are found. It is less common in Italy, Turkey, Germany, and the Iberian Peninsula. In Central Europe, there are only a few breeders whose birds meet the standard. This is due to the difficulty of breeding, poor reproduction, and, last but not least, the cost of quality exhibition birds. Therefore, it is our task, those who have committed to breeding this breed, to raise them with love so that they bring joy to us and the surrounding community.",
+        "section2_title": "Section 2 Title",
+        "section2_text": "Text for section 2.",
+        "section3_title": "Section 3 Title",
+        "section3_text": "Text for section 3.",
+        "section4_title": "Section 4 Title",
+        "section4_text": "Text for section 4.",
+        "gallery_title": "Gallery"
+    },
+    "history": {
+        "title": "History of Canary Breeding",
+        "paragraph1": "The breeding of canaries dates back to the early 16th century and is associated with the Canary Islands. Local cattle breeders began capturing wild canaries, which they sold to merchants on ships. These merchants then transported them to Europe and Japan, where the birds adorned the courts of wealthy families. At that time, Spanish breeders held a monopoly on canary breeding by only selling singing males, thus preventing breeding in other parts of the continent.",
+        "paragraph2": "This made the canary a symbol of nobility and only wealthy people could afford them. Over time, canaries also spread to the common people, who used breeding and selling them to help in difficult times. Several decades later, during the persecution of Protestants, many people fled from Belgium and the Netherlands to England, settling around Nottingham, Norwich, and other areas. Among other things, they brought their beloved canaries with them.",
+        "paragraph3": "On the British Isles, long-term breeding resulted in not only colorful canaries but also posture breeds. These were named after the localities where they were bred, such as 'Yorkshire', 'Border Fancy', and 'Norwich'. At that time, the breeding of these beautiful birds spread across Europe, where in addition to their beautiful song and colorful plumage, canaries were used as helpers in work.",
+        "paragraph4": "In England and Tyrol, miners used them to detect accumulating gas in mines. Besides color and posture, canaries were also bred for their singing, and the Harz Mountains in northeastern Germany became home to an excellent singer—the Harz canary. Over the years of breeding, new color mutations and canary species have emerged, as we know them today."
+    }
       
   }
   

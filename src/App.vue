@@ -3,7 +3,7 @@
     <div class="container mx-auto flex justify-between items-center">
       <!-- Logo -->
       <div class="text-white font-bold text-xl">
-        <router-link to="/">Kanáriky Hobby</router-link>
+        <router-link to="/">NorwichCanary</router-link>
       </div>
 
       <!-- Hamburger Button for mobile -->
@@ -20,26 +20,26 @@
           <router-link to="/" class="text-white hover:text-yellow-200">{{ $t('nav.home') }}</router-link>
         </li>-->
         <li>
-          <router-link to="/historia-chovu" class="text-white hover:text-yellow-200">{{ $t('nav.history') }}</router-link>
+          <router-link to="/about" class="text-white hover:text-yellow-200">{{ $t('nav.about') }}</router-link>
         </li>
-        <li>
+        <!--<li>
           <router-link to="/sucasnost-chovu" class="text-white hover:text-yellow-200">{{ $t('nav.present') }}</router-link>
-        </li>
+        </li>-->
         <li>
-          <router-link to="/foto-norwich" class="text-white hover:text-yellow-200">{{ $t('nav.photo_norwich') }}</router-link>
+          <router-link to="/norwich" class="text-white hover:text-yellow-200">{{ $t('nav.photo_norwich') }}</router-link>
         </li>
         <li>
           <router-link to="/video" class="text-white hover:text-yellow-200">{{ $t('nav.video') }}</router-link>
         </li>
         <li>
-          <router-link to="/foto-fifefancy" class="text-white hover:text-yellow-200">{{ $t('nav.photo_fifefancy') }}</router-link>
+          <router-link to="/fife-fancy" class="text-white hover:text-yellow-200">{{ $t('nav.photo_fifefancy') }}</router-link>
         </li>
         <li>
           <router-link to="/foto-zariadenie" class="text-white hover:text-yellow-200">{{ $t('nav.breeding_facilities') }}</router-link>
         </li>
-        <li>
+        <!--<li>
           <router-link to="/kontakt" class="text-white hover:text-yellow-200">{{ $t('nav.contact') }}</router-link>
-        </li>
+        </li>-->
       </ul>
     <!-- Jazykový prepínač s vlajkami -->
     <div class="flex items-center space-x-2">
@@ -58,16 +58,17 @@
     <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
       <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#" class="hover:underline">NorwichCanary.eu</a>. All Rights Reserved.
     </span>
+    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">norwich.canary.sk@gmail.com </span>
     <ul  class="lg:flex lg:space-x-6 text-sm text-gray-500 sm:text-center dark:text-gray-400">
         <!--<li>
           <router-link to="/" class="text-white hover:text-yellow-200">{{ $t('nav.home') }}</router-link>
         </li>-->
         <li>
-          <router-link to="/historia-chovu" class="">{{ $t('nav.history') }}</router-link>
+          <router-link to="/about" class="">{{ $t('nav.about') }}</router-link>
         </li>
-        <li>
+        <!--<li>
           <router-link to="/sucasnost-chovu" class="">{{ $t('nav.present') }}</router-link>
-        </li>
+        </li>-->
         <li>
           <router-link to="/foto-norwich" class="">{{ $t('nav.photo_norwich') }}</router-link>
         </li>
@@ -80,9 +81,9 @@
         <li>
           <router-link to="/foto-zariadenie" class="">{{ $t('nav.breeding_facilities') }}</router-link>
         </li>
-        <li>
+        <!--<li>
           <router-link to="/kontakt" class="">{{ $t('nav.contact') }}</router-link>
-        </li>
+        </li>-->
       </ul>
     </div>
 </footer>
@@ -101,7 +102,6 @@ const isMenuOpen = ref(false);
 // Funkcia na prepnutie stavu menu
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
-  currentLocale.value = lang;
 };
 
 const changeLanguage = (lang) => {

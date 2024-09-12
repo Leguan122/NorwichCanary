@@ -1,26 +1,34 @@
 {
+    "conclusion": "Záver",
+    "conclusion-text": "Táto stránka vznikla pre potešenie tých, ktorí sa venujú chovu postavových, ale aj farebných kanárikov. Jej úlohou nie je riešiť odborné veci okolo rozdelenia, či chovu vtákov... Verím, že okrem chovateľov zaujme a širokú verejnosť a i jej zásluhou sa rozšíria rady nás, ktorí sme tejto vášni prepadli.",
     "nav": {
       "home": "Domov",
+      "about": "Chov",
       "history": "História",
       "present": "Súčasnosť",
-      "photo_norwich": "Foto Norwich",
+      "photo_norwich": "Norwich",
       "video": "Video",
-      "photo_fifefancy": "Foto Fifefancy",
-      "breeding_facilities": "Foto chovné zariadenie",
+      "photo_fifefancy": "Fife fancy",
+      "breeding_facilities": "Chovné zariadenia",
       "contact": "Kontakt"
     },
-    "history_title": "História chovu kanárikov",
-    "history_content": "Počiatok chovu kanárikov je datovaný začiatkom 16.storočia a je spojený s Kanárskymi ostrovmi...",
     "present": {
     "norwich_title": "Norwich kanáriky",
     "norwich_text": "Chov norwicha v súčasnosti nie je tak rozvinutý, ako by si tento krásny postavový kanárik zaslúžil. Najviac chovateľov je v Anglicku, Belgicku, Holansku, kde sa nachádzajú veľmi kvalitné línie. V menšej miere sa chovajú v Taliansku, Turecku, Nemecku a na Pyrenejskom poloostrove. V strednej Európe je len niekoľko chovateľov, ktorí svojimi vtákmi spĺňajú štandard. Je to zapríčinené náročnosťou chovu, slabou reprodukciou a v neposlednom rade aj cenou kvalitných výstavných jedincov. Preto je úlohou nás, ktorí sme sa podujali šľachtiť toto plemeno, chovať ho s láskou, aby vtáky robili radosť nám i okoliu.",
-    "section2_title": "Nadpis sekcie 2",
-    "section2_text": "Text pre sekciu 2.",
+    "section2_title": "Ostatné postavové kanáriky",
+    "section2_text": "Medzi ostatné postavové kanáriky patria 'parížsky trubač' , 'border fancy' , 'gloster' , 'belgický hrbáč' , 'fife fancy' , či 'nemecký chochlatý'...a mnoho iných, ktoré sa ale chovajú v menšej miere. Z týchto kanárikov sa najviac chovajú kanáriky 'gloster' a 'fife fancy'.",
     "section3_title": "Nadpis sekcie 3",
     "section3_text": "Text pre sekciu 3.",
     "section4_title": "Nadpis sekcie 4",
     "section4_text": "Text pre sekciu 4.",
     "gallery_title": "Galéria"
+  },
+  "history": {
+    "title": "História chovu kanárikov",
+    "paragraph1": "Počiatok chovu kanárikov je datovaný začiatkom 16.storočia a je spojený s Kanárskymi ostrovmi. Tu miestny chovatelia dobytka začali s odchytom divých kanárikov, ktorých predávali obchodníkom na lodiach. Tí ich následne previezli do Európy a Japonska, kde zdobili dvor zámožných rodín. V tom čase si monopol na chov kanárikov udržali španielski chovatelia, pretože predávali len spievajúcich samčekov a tak zamedzili množeniu v iných častiach kontinentu.",
+    "paragraph2": "Tým docielili že kanárik sa stal symbolom vznešenosti a noblesy a mohol si ho kúpiť len majetný človek. Časom sa kanáriky dostali aj medzi prostý ľud, ktorý si ich množením a predajom pomáhal v neľahkej dobe. O niekoľko desiatok rokov neskôr, pri prenasledovaní protestantov, ušlo z Belgicka a Holandska mnoho ľudí do Anglicka a usadili sa v okolí Nottingamu, Norwichu a iných miest. Popri iných veciach si zo sebou zobrali aj svojich miláčikov - kanáriky.",
+    "paragraph3": "Na Britských ostrovoch tak dlhodobým šľachtením vznikali popri farebných kanárikoch aj postavové plemená. Tie dostali pomenovanie podľa lokality, v ktorej sa chovali, ako napríklad 'yorkshire', 'border fancy', či 'norwich'. V tom čase sa chov týchto nádherných vtákov rozšíril aj do Európy, kde okrem krásneho spevu a pestrých farieb, sa kanárik používal aj ako pomocník pri práci.",
+    "paragraph4": "Najmä v Anglicku a Tirolsku ho baníci používali na identifikáciu hromadiaceho sa plynu v bani. Okrem farby a postavy sa kanáriky chovali aj na spev a práve v okolí severovýchodného Nemecka sa pohorie Harz stalo domovom výborného speváka - harzkého kanárika. Postupným mnohoročným šľachtením tak vznikli nové farebné mutácie a druhy kanárikov, aké poznáme aj dnes."
   }
   }
   
