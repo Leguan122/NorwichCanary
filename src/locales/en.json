@@ -1,8 +1,8 @@
 {
     "nav": {
       "home": "Home",
-      "history": "History of Canary Breeding",
-      "present": "Present Canary Breeding",
+      "history": "History",
+      "present": "Present",
       "photo_norwich": "Norwich Photos",
       "video": "Video",
       "photo_fifefancy": "Fifefancy Photos",
@@ -10,6 +10,18 @@
       "contact": "Contact"
     },
     "history_title": "History of Canary Breeding",
-    "history_content": "The beginning of canary breeding is dated to the early 16th century and is associated with the Canary Islands..."
+    "history_content": "The beginning of canary breeding is dated to the early 16th century and is associated with the Canary Islands...",
+        "present": {
+          "norwich_title": "Norwich Canaries",
+          "norwich_text": "The breeding of Norwich canaries is not as developed as it should be for such a beautiful canary breed. Most breeders are in England, Belgium, and the Netherlands, where high-quality lines are found. It is less common in Italy, Turkey, Germany, and the Iberian Peninsula. In Central Europe, there are only a few breeders whose birds meet the standard. This is due to the difficulty of breeding, poor reproduction, and, last but not least, the cost of quality exhibition birds. Therefore, it is our task, those who have committed to breeding this breed, to raise them with love so that they bring joy to us and the surrounding community.",
+          "section2_title": "Section 2 Title",
+          "section2_text": "Text for section 2.",
+          "section3_title": "Section 3 Title",
+          "section3_text": "Text for section 3.",
+          "section4_title": "Section 4 Title",
+          "section4_text": "Text for section 4.",
+          "gallery_title": "Gallery"
+        }
+      
   }
   

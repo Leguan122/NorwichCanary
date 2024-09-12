@@ -12,10 +12,12 @@ const router = createRouter({
     {
       path: '/historia-chovu',
       name: 'history',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/HistoryView.vue')
+    },
+    {
+      path: '/sucasnost-chovu',
+      name: 'present',
+      component: () => import('../views/PresentView.vue')
     }
   ]
 })

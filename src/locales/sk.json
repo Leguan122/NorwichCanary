@@ -1,8 +1,8 @@
 {
     "nav": {
       "home": "Domov",
-      "history": "História chovu kanárikov",
-      "present": "Súčasnosť chovu kanárikov",
+      "history": "História",
+      "present": "Súčasnosť",
       "photo_norwich": "Foto Norwich",
       "video": "Video",
       "photo_fifefancy": "Foto Fifefancy",
@@ -10,6 +10,17 @@
       "contact": "Kontakt"
     },
     "history_title": "História chovu kanárikov",
-    "history_content": "Počiatok chovu kanárikov je datovaný začiatkom 16.storočia a je spojený s Kanárskymi ostrovmi..."
+    "history_content": "Počiatok chovu kanárikov je datovaný začiatkom 16.storočia a je spojený s Kanárskymi ostrovmi...",
+    "present": {
+    "norwich_title": "Norwich kanáriky",
+    "norwich_text": "Chov norwicha v súčasnosti nie je tak rozvinutý, ako by si tento krásny postavový kanárik zaslúžil. Najviac chovateľov je v Anglicku, Belgicku, Holansku, kde sa nachádzajú veľmi kvalitné línie. V menšej miere sa chovajú v Taliansku, Turecku, Nemecku a na Pyrenejskom poloostrove. V strednej Európe je len niekoľko chovateľov, ktorí svojimi vtákmi spĺňajú štandard. Je to zapríčinené náročnosťou chovu, slabou reprodukciou a v neposlednom rade aj cenou kvalitných výstavných jedincov. Preto je úlohou nás, ktorí sme sa podujali šľachtiť toto plemeno, chovať ho s láskou, aby vtáky robili radosť nám i okoliu.",
+    "section2_title": "Nadpis sekcie 2",
+    "section2_text": "Text pre sekciu 2.",
+    "section3_title": "Nadpis sekcie 3",
+    "section3_text": "Text pre sekciu 3.",
+    "section4_title": "Nadpis sekcie 4",
+    "section4_text": "Text pre sekciu 4.",
+    "gallery_title": "Galéria"
+  }
   }
   

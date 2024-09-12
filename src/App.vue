@@ -15,45 +15,85 @@
         </button>
       </div>
       <!-- Links -->
-      <ul :class="{'block': isMenuOpen, 'hidden': !isMenuOpen}" class="lg:flex lg:space-x-6 hidden">
-        <li>
+      <ul :class="{'block': isMenuOpen, 'hidden': !isMenuOpen}" class="lg:flex lg:space-x-6 hidden font-semibold">
+        <!--<li>
           <router-link to="/" class="text-white hover:text-yellow-200">{{ $t('nav.home') }}</router-link>
+        </li>-->
+        <li>
+          <router-link to="/historia-chovu" class="text-white hover:text-yellow-200">{{ $t('nav.history') }}</router-link>
         </li>
         <li>
-          <router-link to="/historia-chovu" class="text-white hover:text-yellow-200">História chovu kanárikov</router-link>
+          <router-link to="/sucasnost-chovu" class="text-white hover:text-yellow-200">{{ $t('nav.present') }}</router-link>
         </li>
         <li>
-          <router-link to="/sucasnost-chovu" class="text-white hover:text-yellow-200">Súčasnosť chovu kanárikov</router-link>
+          <router-link to="/foto-norwich" class="text-white hover:text-yellow-200">{{ $t('nav.photo_norwich') }}</router-link>
         </li>
         <li>
-          <router-link to="/foto-norwich" class="text-white hover:text-yellow-200">Foto Norwich</router-link>
+          <router-link to="/video" class="text-white hover:text-yellow-200">{{ $t('nav.video') }}</router-link>
         </li>
         <li>
-          <router-link to="/video" class="text-white hover:text-yellow-200">Video</router-link>
+          <router-link to="/foto-fifefancy" class="text-white hover:text-yellow-200">{{ $t('nav.photo_fifefancy') }}</router-link>
         </li>
         <li>
-          <router-link to="/foto-fifefancy" class="text-white hover:text-yellow-200">Foto Fifefancy</router-link>
+          <router-link to="/foto-zariadenie" class="text-white hover:text-yellow-200">{{ $t('nav.breeding_facilities') }}</router-link>
         </li>
         <li>
-          <router-link to="/foto-zariadenie" class="text-white hover:text-yellow-200">Foto chovné zariadenie</router-link>
-        </li>
-        <li>
-          <router-link to="/kontakt" class="text-white hover:text-yellow-200">Kontakt</router-link>
+          <router-link to="/kontakt" class="text-white hover:text-yellow-200">{{ $t('nav.contact') }}</router-link>
         </li>
       </ul>
+    <!-- Jazykový prepínač s vlajkami -->
+    <div class="flex items-center space-x-2">
+        <!-- Tlačidlo pre opačný jazyk -->
+        <button @click="changeLanguage(oppositeLanguage)" class="flex items-center">
+          <img :src="flagSrc(oppositeLanguage)" :alt="oppositeLanguage === 'sk' ? 'Slovenčina' : 'English'" class="w-8 h-5" />
+        </button>
+      </div>
     </div>
   </nav>
 
   <RouterView/>
-  <button @click="changeLanguage('sk')">Slovenčina</button>
-    <button @click="changeLanguage('en')">English</button>
+
+
+<footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#" class="hover:underline">NorwichCanary.eu</a>. All Rights Reserved.
+    </span>
+    <ul  class="lg:flex lg:space-x-6 text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <!--<li>
+          <router-link to="/" class="text-white hover:text-yellow-200">{{ $t('nav.home') }}</router-link>
+        </li>-->
+        <li>
+          <router-link to="/historia-chovu" class="">{{ $t('nav.history') }}</router-link>
+        </li>
+        <li>
+          <router-link to="/sucasnost-chovu" class="">{{ $t('nav.present') }}</router-link>
+        </li>
+        <li>
+          <router-link to="/foto-norwich" class="">{{ $t('nav.photo_norwich') }}</router-link>
+        </li>
+        <li>
+          <router-link to="/video" class="">{{ $t('nav.video') }}</router-link>
+        </li>
+        <li>
+          <router-link to="/foto-fifefancy" class="">{{ $t('nav.photo_fifefancy') }}</router-link>
+        </li>
+        <li>
+          <router-link to="/foto-zariadenie" class="">{{ $t('nav.breeding_facilities') }}</router-link>
+        </li>
+        <li>
+          <router-link to="/kontakt" class="">{{ $t('nav.contact') }}</router-link>
+        </li>
+      </ul>
+    </div>
+</footer>
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 
 const { locale } = useI18n();
+const currentLocale = ref(locale.value);
 
 // Definícia stavu menu (otvorené alebo zatvorené)
 const isMenuOpen = ref(false);
@@ -61,11 +101,29 @@ const isMenuOpen = ref(false);
 // Funkcia na prepnutie stavu menu
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
+  currentLocale.value = lang;
 };
 
 const changeLanguage = (lang) => {
   locale.value = lang;
+  currentLocale.value = lang;
 };
+
+// Vypočíta opačný jazyk na základe aktuálneho jazyka
+const oppositeLanguage = computed(() => {
+  return currentLocale.value === 'sk' ? 'en' : 'sk';
+});
+
+const flagSrc = (lang) => {
+  if (lang === "sk") {
+    return new URL(`@/assets/images/sk.jpg`, import.meta.url).href;
+  } else {
+    return new URL(`@/assets/images/en.jpg`, import.meta.url).href;
+  }
+};
+
+const skFlag = new URL('@/assets/images/sk.jpg', import.meta.url).href;
+const enFlag = new URL('@/assets/images/en.jpg', import.meta.url).href;
 </script>
 
 <style scoped>
