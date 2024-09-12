@@ -1,7 +1,7 @@
 <template>
     <div class="container mx-auto p-8 bg-gray-50">
       <!-- Nadpis -->
-      <h1 class="text-4xl font-bold text-center text-yellow-700 mb-8">Nadpis fife fancy</h1>
+      <h1 class="text-4xl font-bold text-center text-yellow-700 mb-8">Fife Fancy</h1>
   
       <!-- Obsah -->
       <div class="flex flex-col lg:flex-row items-center lg:space-x-8">
@@ -27,8 +27,7 @@
     
 
     <div class="container mx-auto p-8 bg-gray-50">
-      <!-- Nadpis -->
-      <h1 class="text-4xl font-bold text-center text-yellow-700 mb-8">Fife Fancy</h1>
+      
   
       <!-- Obsah -->
       <div class="container mx-auto py-10">

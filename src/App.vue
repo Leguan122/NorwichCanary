@@ -29,7 +29,9 @@
           <router-link to="/norwich" class="text-white hover:text-yellow-200">{{ $t('nav.photo_norwich') }}</router-link>
         </li>
         <li>
-          <router-link to="/video" class="text-white hover:text-yellow-200">{{ $t('nav.video') }}</router-link>
+          <!--<router-link to="/video" class="text-white hover:text-yellow-200">{{ $t('nav.video') }}</router-link>-->
+          <a href="https://www.youtube.com/channel/UCfWGDBQTuwgWOimkbe92YLg" class="text-white hover:text-yellow-200" target="_blank">Video
+          </a>
         </li>
         <li>
           <router-link to="/fife-fancy" class="text-white hover:text-yellow-200">{{ $t('nav.photo_fifefancy') }}</router-link>
@@ -70,13 +72,15 @@
           <router-link to="/sucasnost-chovu" class="">{{ $t('nav.present') }}</router-link>
         </li>-->
         <li>
-          <router-link to="/foto-norwich" class="">{{ $t('nav.photo_norwich') }}</router-link>
+          <router-link to="/norwich" class="">{{ $t('nav.photo_norwich') }}</router-link>
         </li>
         <li>
-          <router-link to="/video" class="">{{ $t('nav.video') }}</router-link>
+          <!--<router-link to="/video" class="">{{ $t('nav.video') }}</router-link>-->
+          <a href="https://www.youtube.com/channel/UCfWGDBQTuwgWOimkbe92YLg" target="_blank">Video
+          </a>
         </li>
         <li>
-          <router-link to="/foto-fifefancy" class="">{{ $t('nav.photo_fifefancy') }}</router-link>
+          <router-link to="/fife-fancy" class="">{{ $t('nav.photo_fifefancy') }}</router-link>
         </li>
         <li>
           <router-link to="/foto-zariadenie" class="">{{ $t('nav.breeding_facilities') }}</router-link>
